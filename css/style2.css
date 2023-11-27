@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   /* font-family: 'Press Start 2P',cursive; */
+   font-family: 'comic sans ms';
+}
+
+form{
+  width: 250px;
+  margin: auto;
+}
+
+body{
+  background-image: url(../img/fundo.jpg);
+  text-align: center;
+}
+
+.container{
+   background-color: rgba(70,58,100,0.75); 
+  border-radius: 30px;
+  padding: 0px;
+  margin: auto;
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icone{
+  width:250px;
+}
+
+p{
+  padding: 10px;
+}
+
+form input[type="text"],form input[type="password"],form input[type="button"]{
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  width: 90%;
+  display: block;
+  padding: 8px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+form input[type="button"]{
+  background-color: pink;
+  font-weight: bold;
+  border: none;
+}
+
+form input[type="button"]:hover{
+  background-color: #41baa6;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+a:link, a:visited {
+  color: rgb(245, 245, 248);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active{
+    color: #8aeedc;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+@media screen and(min-width: 600px){
+    form{
+        width: 400px;
+        margin: auto;
+      }
+      a:hover{
+        color: #8aeedc;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+}
